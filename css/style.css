@@ -266,3 +266,20 @@ padding-top: 40px;
   margin-left: 155px;
   padding-top: 30px;
 }
+
+.orange-bullet::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.orange-bullet li{
+  float: right;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+.three-bullet li{
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial;
+  font-size: 12px;
+}
