@@ -257,9 +257,6 @@ padding-top: 40px;
   }
 
 /*CLAIM CRM*/
-.claim-feature {
-
-}
 .claim-crm {
   font-family: Arial;
   font-weight: bold;
@@ -285,4 +282,41 @@ padding-top: 40px;
   font-family: Arial;
   font-size: 12px;
   margin-right: 67px;
+}
+/*IMMAGINE e CTA LEARN MORE*/
+.area-cta-learn-more{
+  position: relative;
+}
+.area-cta-learn-more {
+  content: "";
+  display: table;
+  clear: both;
+}
+.immagine-cta{
+  position: absolute;
+  z-index: 50;
+  /*margin: 0 auto;*/
+  margin-bottom: 100px;
+  margin-left: 100px;
+  bottom: 0;
+}
+.bottone-cta {
+  position: absolute;
+  z-index: 50;
+    background-color: #fe775a;
+    height:30px;
+    width:150px;
+    bottom:0;
+    margin-left: 100px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.learn-more {
+  font-size: 14px;
+  font-family: Arial;
 }
