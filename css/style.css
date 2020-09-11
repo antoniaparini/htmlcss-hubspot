@@ -176,7 +176,6 @@ float: right;
   font-size: 10px;
 }
 
-
 /*BREAKLINE AZZURRA*/
 .container-jumbotron {
 position: relative;
@@ -197,12 +196,15 @@ position: relative;
   border-bottom: 3px solid black;
   bottom: 0;
 }
+/**FINE TOP PAGE**/
+
+/**INIZIO MIDDLE PAGE**/
 
 /*MAIN CONTENT CONTAINER*/
 .main-content-container {
   background-color: #f4f9fd;
   background-position: center;
-  height:1000px;
+  height:1400px;
   width:1900px;
 }
 .main-central-img {
