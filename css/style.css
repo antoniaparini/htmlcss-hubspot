@@ -133,6 +133,7 @@ float: right;
 .description-style{
   position: absolute;
   z-index: 50;
+
   margin: 0 auto;
   left: 0px;
   right: 0;
@@ -177,8 +178,7 @@ float: right;
 }
 
 
-/*Breakline azzurra*/
-
+/*BREAKLINE AZZURRA*/
 .container-jumbotron {
 position: relative;
 }
@@ -319,4 +319,37 @@ padding-top: 40px;
 .learn-more {
   font-size: 14px;
   font-family: Arial;
+}
+
+/*COLONNA 1*/
+.colonna-1::after {
+  content '';
+  display: table;
+  clear:both;
+}
+.colonna-1{
+  height:500px;
+  width:30%;
+  background: white;
+  margin-top: 95px;
+}
+.colonna-1{
+float:left;
+border-radius: 5px;
+box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.col1-heading{
+  font-family: Arial;
+  margin-top: 20px;
+}
+
+.col1-image {
+  padding-top: 18px;
+}
+.testo-mktg-hub {
+  font-family: Arial;
+  font-size: 11px;
+  margin-top: 20px;
+  line-height: 20px;
 }
