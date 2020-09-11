@@ -123,7 +123,7 @@ float: right;
   margin: 0 auto;
   left: 0px;
   right: 0;
-  top: 30%;
+  top: 20%;
   font-family: Arial;
   font-size: 45px;
   font-weight: 700;
@@ -133,11 +133,10 @@ float: right;
 .description-style{
   position: absolute;
   z-index: 50;
-
   margin: 0 auto;
   left: 0px;
   right: 0;
-  top: 50%;
+  top: 40%;
   font-family: Arial;
   font-size: 16px;
   font-weight: 200;
@@ -153,7 +152,7 @@ float: right;
   margin: 0 auto;
   left: 0px;
   right: 0;
-  top: 60%;
+  top: 50%;
   width: 60%;
 }
 
