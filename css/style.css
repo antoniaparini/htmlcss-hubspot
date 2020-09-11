@@ -272,14 +272,17 @@ padding-top: 40px;
   display: table;
   clear: both;
 }
-.orange-bullet li{
+.orange-bullet{
   float: right;
   margin-right: 100px;
   padding-top: 20px;
 }
 .three-bullet li{
+  display: inline-block;
+  margin: 20px;
   text-decoration: none;
   list-style: none;
   font-family: Arial;
   font-size: 12px;
+  margin-right: 67px;
 }
