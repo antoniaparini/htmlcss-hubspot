@@ -250,8 +250,19 @@ padding-top: 40px;
   padding-top: 30px;
   text-align: left;
 }
+.text-crm::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 /*CLAIM CRM*/
+.claim-feature {
+
+}
 .claim-crm {
   font-family: Arial;
+  font-weight: bold;
+  margin-left: 155px;
+  padding-top: 30px;
 }
