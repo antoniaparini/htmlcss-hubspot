@@ -577,4 +577,15 @@ margin-top: 20px;
   background-position: center;
   margin-left: -500px;
   margin-top: 40px;
+  color: white;
+  font-family: Arial;
+}
+.text-header-community {
+  color: white;
+  font-family: Arial;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.text-description-com {
+  font-size: 12px;
 }
