@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  height: 20000px;
+  height: 40000px;
 }
 
 .header-top {
@@ -110,6 +110,10 @@ float: right;
 }
 
 /*AREA IMMAGINE TOP*/
+.container-image {
+  width:auto;
+}
+
 .immagine-top img {
   width:100%;
   padding-top: 20px;
@@ -382,10 +386,17 @@ margin-top: 20px;
   margin-left: 85px;
   margin-top: 40px;
   border-radius: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .cta-crm-learnmore{
   font-size: 12px;
   font-family: Arial;
+  border: none;
+  background-color:transparent;
+  color: white;
 }
 
 /**FINE COLONNA 1**/
@@ -456,10 +467,17 @@ margin-top: 20px;
   margin-top: 40px;
   border-radius: 5px;
   text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .cta-crm-learnmore2{
   font-size: 12px;
   font-family: Arial;
+  border: none;
+  background-color:transparent;
+  color: white;
 }
 
 /**FINE COLONNA 2**/
@@ -529,8 +547,34 @@ margin-top: 20px;
   border-radius: 5px;
   text-align: center;
   padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .cta-crm-learnmore3{
   font-size: 12px;
   font-family: Arial;
+  border: none;
+  background-color:transparent;
+  color: white;
+  text-align: center;
+
+}
+
+/**FINE COLONNA 3**/
+
+/*BOX COMMUNITY*/
+.box-community{
+  content '';
+  display: table;
+  clear:both;
+}
+
+.box-community-background{
+  width: 1900px;
+  height: 900px;
+  background-image: linear-gradient(to bottom right, #00a6bb, #00bba7 );
+  background-position: center;
+  margin-left: -500px;
+  margin-top: 40px;
 }
