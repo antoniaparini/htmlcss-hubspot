@@ -690,10 +690,10 @@ padding-top: 100px;
   position: absolute;
   z-index: 1;
   content:"+";
-  font-size: 11px;
+  font-size: 16px;
   display: inline-block;
   margin-left: 5px;
-  top: 472px;
+  top: 465px;
 }
 .text-under-heading2 {
   padding-top: 10px;
@@ -711,6 +711,14 @@ padding-top: 100px;
   clear:both;
 }
 
+.colonna-3-boxcomm{
+float: left;
+margin-right: 600px;
+/*height: 148px;*/
+width:150px;;
+/*border-right-style: solid;
+border-color: white*/
+}
 .colonna-3-boxcomm{
 padding-top: 100px;
 }
@@ -740,3 +748,51 @@ padding-top: 100px;
   padding-bottom: 20px;
 }
 /**FINE COLONNA 3 BOX COMMUNITY**/
+
+/*COLONNA 4 BOX COMMUNITY*/
+.colonna-4-boxcomm::after {
+  content '';
+  display: table;
+  clear:both;
+}
+
+.colonna-4-boxcomm{
+float: left;
+margin-left: 545px;
+padding-top: 100px;
+
+}
+
+.col4bc-header .border-column{
+  border-style: solid;
+  border-color: white;
+  /*margin-bottom: 10px;*/
+  border-width: 0px 0px 0px 0px;
+}
+
+.col4bc-image{
+  padding-top: 4px;
+
+}
+.col4bc-heading{
+  padding-top: 15px;
+
+}
+.image-icon-heading{
+  /*border-right: 1px solid white;*/
+}
+.heading-hubspot-community::after{
+  position: absolute;
+  z-index: 1;
+  content:"+";
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 5px;
+  top: 466px;
+}
+.text-under-heading4 {
+  padding-top: 10px;
+  font-family: Arial;
+  font-size: 10px;
+  padding-bottom: 0px;
+}
