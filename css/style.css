@@ -632,6 +632,10 @@ border-color: white*/
 
 .col1bc-heading{
   padding-top: 5px;
+  /*border-right: 1px solid white;*/
+}
+
+.image-icon-heading-1{
   border-right: 1px solid white;
 }
 .heading-150::after{
@@ -647,7 +651,7 @@ border-color: white*/
   padding-top: 10px;
   font-family: Arial;
   font-size: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 /*COLONNA 2 BOX COMMUNITY*/
 
@@ -667,13 +671,20 @@ padding-top: 100px;
 .col2bc-header .border-column{
   border-style: solid;
   border-color: white;
-  margin-bottom: 10px;
-  border-width: 0px 1px 1px 0px;
+  /*margin-bottom: 10px;*/
+  border-width: 0px 0px 0px 0px;
 }
 
+.col2bc-image{
+  padding:0;
+  margin: 0 auto;
+}
 .col2bc-heading{
-  padding-top: 5px;
-  border-right: 1px solid white;
+  /*padding-top: 5px;*/
+
+}
+.image-icon-heading{
+  /*border-right: 1px solid white;*/
 }
 .heading-hubspot-connect::after{
   position: absolute;
@@ -694,21 +705,14 @@ padding-top: 100px;
 
 /*COLONNA 3 BOX COMMUNITY*/
 
-/*.colonna-3-boxcomm::after {
+.colonna-3-boxcomm::after {
   content '';
   display: table;
   clear:both;
 }
 
 .colonna-3-boxcomm{
-float: left;
-
 padding-top: 100px;
-
-}
-
-.colonna3-boxcomm{
-  display: inline-block;
 }
 .col3bc-header .border-column{
   border-style: solid;
@@ -725,7 +729,7 @@ padding-top: 100px;
   z-index: 1;
   content:"+";
   font-size: 11px;
-  display: inline-block;
+  /*display: inline-block;*/
   margin-left: 5px;
   top: 600px;
 }
@@ -734,5 +738,5 @@ padding-top: 100px;
   font-family: Arial;
   font-size: 10px;
   padding-bottom: 20px;
-}*/
+}
 /**FINE COLONNA 3 BOX COMMUNITY**/
