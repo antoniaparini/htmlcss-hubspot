@@ -642,7 +642,7 @@ border-color: white*/
   position: absolute;
   z-index: 1;
   content:"+";
-  font-size: 11px;
+  font-size: 16px;
   display: inline-block;
   margin-left: 5px;
   top: 345px;
@@ -715,7 +715,7 @@ padding-top: 100px;
 float: left;
 margin-right: 600px;
 /*height: 148px;*/
-width:150px;;
+width:150px;
 /*border-right-style: solid;
 border-color: white*/
 }
@@ -736,10 +736,10 @@ padding-top: 100px;
   position: absolute;
   z-index: 1;
   content:"+";
-  font-size: 11px;
+  font-size: 16px;
   /*display: inline-block;*/
   margin-left: 5px;
-  top: 600px;
+  top: 343px;
 }
 .text-under-heading3 {
   padding-top: 10px;
@@ -791,6 +791,106 @@ padding-top: 100px;
   top: 466px;
 }
 .text-under-heading4 {
+  padding-top: 10px;
+  font-family: Arial;
+  font-size: 10px;
+  padding-bottom: 0px;
+}
+
+/**FINE COLONNA 4 BOX COMMUNITY*/
+
+/*COLONNA 5 BOX COMMUNITY*/
+
+.colonna-5-boxcomm::after {
+  content '';
+  display: table;
+  clear:both;
+}
+
+.colonna-5-boxcomm{
+float: left;
+margin-right: 0px;
+margin-left: -600px;
+/*height: 148px;*/
+width:150px;
+margin-top: 95px;
+
+/*border-right-style: solid;
+border-color: white*/
+}
+.colonna-5-boxcomm{
+margin-bottom: 500px;
+}
+.col5bc-header .border-column{
+  border-style: solid;
+  border-color: white;
+  margin-bottom: 10px;
+  border-width: 0px 1px 1px 0px;
+}
+
+.col5bc-heading{
+  padding-top: 5px;
+}
+.heading-hubspot-academy-5::after{
+  position: absolute;
+  z-index: 1;
+  content:"+";
+  font-size: 16px;
+  text-align: center;
+  margin-left: 5px;
+  top: 343px;
+}
+.text-under-heading-5 {
+  padding-top: 10px;
+  font-family: Arial;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+
+/**FINE COLONNA 5 BOX COMMUNITY*/
+
+/*COLONNA 6 BOX COMMUNITY*/
+
+.colonna-6-boxcomm::after {
+  content '';
+  display: table;
+  clear:both;
+}
+
+.colonna-6-boxcomm{
+/*float: left;*/
+/*margin-left: 545px;*/
+margin-top: 100px;
+}
+
+.col6bc-header .border-column{
+  border-style: solid;
+  border-color: white;
+  /*margin-bottom: 10px;*/
+  border-width: 0px 0px 0px 0px;
+}
+
+.col6bc-image{
+  padding-top: 4px;
+
+}
+.col6bc-heading{
+  padding-top: 15px;
+
+}
+.image-icon-heading{
+  /*border-right: 1px solid white;*/
+}
+.heading-hubspot-community::after{
+  position: absolute;
+  z-index: 1;
+  content:"+";
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 5px;
+  top: 466px;
+}
+.text-under-heading-6 {
   padding-top: 10px;
   font-family: Arial;
   font-size: 10px;
