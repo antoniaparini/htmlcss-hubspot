@@ -587,7 +587,7 @@ margin-top: 20px;
 
 .box-community-background{
   width: 1900px;
-  height: 900px;
+  height: 800px;
   background-image: linear-gradient(to bottom right, #00a6bb, #00bba7 );
   background-position: center;
   margin-left: -500px;
@@ -997,3 +997,19 @@ border-right: 1px solid white;
   font-size: 10px;
   padding-bottom: 0px;
 }
+
+/*CONTAINER START GROWING*/
+.container-start-growing{
+  width:1900px;
+  height: 900px;
+}
+
+.colonna-1-start-growing::after{
+    content '';
+    display: table;
+    clear:both;
+  }
+
+  .colonna-1-start-growing{
+    float: left;
+  }
