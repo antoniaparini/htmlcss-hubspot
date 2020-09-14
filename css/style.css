@@ -112,6 +112,8 @@ float: right;
 /*AREA IMMAGINE TOP*/
 .container-image {
   width:auto;
+    padding-bottom: 0;
+    height: 921px;
 }
 
 .immagine-top img {
@@ -127,7 +129,7 @@ float: right;
   margin: 0 auto;
   left: 0px;
   right: 0;
-  top: 20%;
+  top: 18%;
   font-family: Arial;
   font-size: 45px;
   font-weight: 700;
@@ -136,11 +138,12 @@ float: right;
 }
 .description-style{
   position: absolute;
+  line-height: 1.8;
   z-index: 50;
   margin: 0 auto;
   left: 0px;
   right: 0;
-  top: 40%;
+  top: 34%;
   font-family: Arial;
   font-size: 16px;
   font-weight: 200;
@@ -156,7 +159,7 @@ float: right;
   margin: 0 auto;
   left: 0px;
   right: 0;
-  top: 50%;
+  top: 47%;
   width: 60%;
 }
 
@@ -183,21 +186,25 @@ float: right;
 /*BREAKLINE AZZURRA*/
 .container-jumbotron {
 position: relative;
+  margin: 0;
 }
 
-.breakline {
+.container-jumbotron::before {
+  content: "";
   position: absolute;
-  z-index: 999;
-  margin: 0 auto;
+
+
+  /*z-index: 999;*/
+  /*margin: 0 auto;*/
   left: 0px;
-  right: 0;
+  /*right: 0;*/
   width: 100%;
-  height: 110px;
+  height: 100px;
   background-color: #afebe4;
-  border-style: black;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
-  bottom: 0;
+  bottom: 0px;
+
 }
 /**FINE TOP PAGE**/
 
@@ -209,10 +216,15 @@ position: relative;
   background-position: center;
   height:1250px;
   width:1900px;
+  padding-top: 0;
+  margin-top: 0;
 }
 .main-central-img {
   padding-top: 50px;
   text-align: center;
+}
+.img {
+  width: 250px;
 }
 .main-title {
   font-family: Arial;
@@ -620,6 +632,7 @@ border-color: white*/
 
 .col1bc-heading{
   padding-top: 5px;
+  border-right: 1px solid white;
 }
 .heading-150::after{
   position: absolute;
@@ -660,6 +673,7 @@ padding-top: 100px;
 
 .col2bc-heading{
   padding-top: 5px;
+  border-right: 1px solid white;
 }
 .heading-hubspot-connect::after{
   position: absolute;
