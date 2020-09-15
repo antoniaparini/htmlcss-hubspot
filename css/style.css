@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  height: 40000px;
+  height: 2000px;
 }
 
 .header-top {
@@ -1243,9 +1243,7 @@ background-color: #ffffff;
   padding-top: 40px;
   margin-left: 80px;
 }
-.container-footer4{
 
-}
 .list-items-4{
   list-style: none;
   text-align: left;
@@ -1260,6 +1258,7 @@ background-color: #ffffff;
   margin-left: 80px;
 }
 
+/*BOTTONE CONTATTO FOOTER*/
 .contact-footer{
 padding-bottom: 10px;
 
@@ -1280,6 +1279,8 @@ padding-bottom: 10px;
   line-height: 0.2;
   margin-bottom: 5px;
 }
+/* FINE BOTTONE CONTATTO FOOTER*/
+/*AREA SOCIAL FOOTER*/
 
 .social-area{
   height:50px;
@@ -1298,3 +1299,72 @@ color: #c7d3df;
 padding-right: 25px;
 
 }
+/*FINE AREA SOCIAL FOOTER*/
+
+/*AREA LINGUE FOOTER*/
+
+.site-languages{
+  list-style: none;
+  font-family: Arial;
+  color: #becad7;
+  text-align: left;
+  padding-top: 40px;
+  margin-left: -400px;
+
+}
+
+.elenco-lingue {
+  list-style: none;
+  text-align: left;
+  font-family: Arial;
+  font-weight: bold;
+  color: #becad7;
+  border-bottom-color: 1px #becad7;
+  bottom: 1px;
+
+}
+
+.elenco-lingue li {
+  padding-right: 20px;
+}
+
+.site-languages .elenco-lingue li{
+  display: inline-block;
+}
+
+.logo-hubspot-footer{
+  color: #becad7;
+  margin-left: -1000px;
+  margin-right: 650px;
+  margin-top: 40px;
+}
+
+.text-under-ft-logo{
+  font-family: Arial;
+  font-size: 12px;
+  color:#becad7;
+  padding-left: 68px;
+  padding-top: 10px;
+}
+
+.area-privacy-legal .privacy-legal li{
+  display: inline-block;
+  padding-right: 20px;
+
+}
+
+.area-privacy-legal .privacy-legal{
+    margin-top: -18px;
+}
+.privacy-legal{
+
+    list-style: none;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    color: #becad7;
+    padding-left: 50px;
+
+}
+
+hr { display: block; margin-before: 0.5em; margin-after: 0.5em; margin-left: -350px; margin-end: auto; overflow: hidden; margin-top: 20px; border-style: inset; border-width: 1px;}
