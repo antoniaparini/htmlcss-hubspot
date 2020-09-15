@@ -1117,3 +1117,84 @@ background-color: #ffffff;
   text-align: left;
   color: black;
 }
+
+/**FINE BOTTONE ARANCIONE**/
+
+/*FOOTER*/
+.main-container-footer{
+  content '';
+  display: table;
+  clear:both;
+}
+
+.main-container-footer{
+  width: 1900px;
+  height: 600px;
+  /*padding-right: 600px;*/
+  background-color: #32495b;
+  margin-left: -500px;
+}
+.main-container-footer .container-footer {
+  float: left;
+}
+
+.increase-your-traffic-title{
+  list-style: none;
+  font-family: Arial;
+  color: white;
+  text-align: left;
+  padding-top: 40px;
+  margin-left: 300px;
+}
+.container-footer{
+  /*width:25%;*/
+}
+.list-items-1{
+  list-style: none;
+  text-align: left;
+  font-family: Arial;
+  color: #bdc9d6;
+  line-height: 1.9;
+
+}
+
+.list-items-1{
+  list-style: none;
+  margin-left: 300px;
+}
+
+/*.header-top {
+height: 80px;
+background-color: #f4f9fd;
+
+}
+
+.header-top::after {
+  content '';
+  display: table;
+  clear:both;
+}
+
+.header-top .left-side {
+  float: left;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+
+.header-top .right-side {
+  float: right;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+
+.language-sel {
+  list-style: none;
+}
+
+.language-sel li{
+  font-family: Arial;
+  display:inline-block;
+}
+.language-sel .login-button{
+  padding-top: 5px;
+}*/
