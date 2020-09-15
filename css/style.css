@@ -1335,7 +1335,7 @@ padding-right: 25px;
 .logo-hubspot-footer{
   color: #becad7;
   margin-left: -1000px;
-  margin-right: 650px;
+  margin-right: 690px;
   margin-top: 40px;
 }
 
@@ -1347,6 +1347,8 @@ padding-right: 25px;
   padding-top: 10px;
 }
 
+/*FINE AREA LINGUE FOOTER*/
+/*AREA PRIVACY - LEGAL*/
 .area-privacy-legal .privacy-legal li{
   display: inline-block;
   padding-right: 20px;
@@ -1354,7 +1356,7 @@ padding-right: 25px;
 }
 
 .area-privacy-legal .privacy-legal{
-    margin-top: -18px;
+    margin-top: -20px;
 }
 .privacy-legal{
 
@@ -1363,8 +1365,18 @@ padding-right: 25px;
     font-family: Arial;
     font-weight: bold;
     color: #becad7;
-    padding-left: 50px;
+    padding-left: 70px;
 
 }
 
-hr { display: block; margin-before: 0.5em; margin-after: 0.5em; margin-left: -350px; margin-end: auto; overflow: hidden; margin-top: 20px; border-style: inset; border-width: 0.6px;}
+hr {
+  display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-left: -350px;
+  margin-end: auto;
+  overflow: hidden;
+  margin-top: 20px;
+  border-style: inset;
+  border-width: 0.6px;
+}
