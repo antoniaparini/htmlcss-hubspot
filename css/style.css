@@ -1261,7 +1261,7 @@ background-color: #ffffff;
 }
 
 .contact-footer{
-
+padding-bottom: 10px;
 
 }
 .cta-footer {
@@ -1282,15 +1282,19 @@ background-color: #ffffff;
 }
 
 .social-area{
-  display: inline-block;
+  height:50px;
+  margin-left: 85px;
 }
-.elenco-social {
-display: inline-block;
+.social-area .elenco-social li{
+  display: inline-block;
 }
 .elenco-social .social-icons{
   list-style: none;
+
 }
 
-.social-icons{
+.social-icons li{
 color: #c7d3df;
+padding-right: 25px;
+
 }
