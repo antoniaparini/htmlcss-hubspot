@@ -1147,7 +1147,7 @@ background-color: #ffffff;
   margin-left: 300px;
 }
 .container-footer{
-  /*width:25%;*/
+
 }
 .list-items-1{
   list-style: none;
@@ -1162,6 +1162,35 @@ background-color: #ffffff;
   list-style: none;
   margin-left: 300px;
 }
+/**FINE COLONNA FOOTER 1**/
+
+.main-container-footer .container-footer2 {
+  float: left;
+}
+
+.connect-with-leads-title{
+  list-style: none;
+  font-family: Arial;
+  color: white;
+  text-align: left;
+  padding-top: 40px;
+  margin-left: 80px;
+}
+.container-footer2{
+
+}
+.list-items-2{
+  list-style: none;
+  text-align: left;
+  font-family: Arial;
+  color: #bdc9d6;
+  line-height: 1.9;
+
+}
+
+.list-items-2{
+  list-style: none;
+  margin-left: 80px;
 
 /*.header-top {
 height: 80px;
